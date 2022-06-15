@@ -8,7 +8,10 @@ import {
   Platform,
   Dimensions,
 } from 'react-native';
-import BubbleSelect, { Bubble, BubbleNode } from 'react-native-bubble-select';
+import BubbleSelect, {
+  Bubble,
+  BubbleNode,
+} from 'better-react-native-bubble-select';
 import randomCity, { randomCities } from './randomCity';
 
 const { width, height } = Dimensions.get('window');
